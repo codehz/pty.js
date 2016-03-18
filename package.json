@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "test": "NODE_ENV=test mocha -R spec",
-    "install": "git submodule update -i -r",
+    "install": "git clone https://github.com/codehz/winpty deps/winpty",
     "postinstall": "node-gyp rebuild"
   },
   "tags": [

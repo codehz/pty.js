@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "test": "NODE_ENV=test mocha -R spec",
-    "install": "git submodule update --init&&node-gyp rebuild"
+    "preinstall": "git submodule update -i -r&&node-gyp rebuild"
   },
   "tags": [
     "pty",
